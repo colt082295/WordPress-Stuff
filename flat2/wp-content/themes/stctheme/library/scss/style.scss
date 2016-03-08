@@ -1,0 +1,508 @@
+/******************************************************************
+
+Stylesheet: Main Stylesheet
+
+Here's where the magic happens. Here, you'll see we are calling in
+the separate media queries. The base mobile goes outside any query
+and is called at the beginning, after that we call the rest
+of the styles inside media queries.
+******************************************************************/
+
+
+//
+// IMPORTING STYLES
+//
+
+// import normalize
+@import "../../bower_components/foundation/scss/normalize";
+
+// import mixins
+@import "./mixins";
+
+// import foundation overrides
+@import "./settings";
+
+// foundation.scss
+@import "../../bower_components/foundation/scss/foundation";
+
+// joints.scss
+@import "./joints";
+
+/*
+SMALL (BASE) SIZE
+These are the small/base styles. It's what people see on their phones. If
+you set a great foundation, you won't need to add too many styles in
+the other stylesheets. Remember, keep it light: Speed is Important.
+*/
+
+// styles in small.scss
+@import "./small";
+
+
+/*
+MEDIUM
+*/
+@media #{$medium-up}{
+
+	// styles in medium.scss
+	@import "./medium";
+
+} // end of media query
+
+/*
+LARGE
+This is the average viewing window. So Desktops, Laptops, and
+in general anyone not viewing on a mobile device. Here's where
+you can add resource intensive styles.
+*/
+@media #{$large-up}{
+
+	// styles in large.scss
+	@import "./large";
+
+} // end of media query
+
+/*
+XLARGE
+*/
+@media #{$xlarge-up}{
+
+	// styles in xlarge.scss
+	@import "./xlarge";
+
+} // end of media query
+
+/*
+XXLARGE
+*/
+@media #{$xxlarge-up}{
+
+	// styles in xxlarge.scss
+	@import "./xxlarge";
+
+} // end of media query
+
+/*
+RETINA (2x RESOLUTION DEVICES)
+This applies to the retina iPhone (4s) and iPad (2,3) along with
+other displays with a 2x resolution. You can also create a media
+query for retina AND a certain size if you want. Go Nuts.
+*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min--moz-device-pixel-ratio: 1.5),
+       only screen and (min-device-pixel-ratio: 1.5) {
+
+	// styles in 2x.scss
+	@import "./2x";
+
+} // end of media query
+
+/*
+iPHONE 5 MEDIA QUERY
+Want to get fancy for no good reason? Knock yourself out.
+*/
+@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  
+  // iPhone 5 or iPod Touch 5th generation styles (you can include your own file if you want)
+  
+}
+
+/*
+PRINT STYLESHEET
+Feel free to customize this. Remember to add things that won't make
+sense to print at the bottom. Things like nav, ads, and forms should
+be set to display none.
+*/
+/*
+Add all of this to the scss files instead of the css files inside the website. Just development css ATM.
+*/
+
+@media print {
+	@import "./print";
+}
+.move-right > .inner-wrap {
+-ms-transform: translate(15.625rem, 0);
+-webkit-transform: translate3d(15.625rem, 0, 0);
+-moz-transform: translate3d(15.625rem, 0, 0);
+-ms-transform: translate3d(15.625rem, 0, 0);
+-o-transform: translate3d(15.625rem, 0, 0);
+transform: translate3d(15.625rem, 0, 0);
+}
+#footer>footer {
+	background-color: rgb(51, 51, 51);
+	color: white;
+}
+.header {
+	margin-bottom:1em;
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	background-color: rgb(0, 140, 186)
+}
+.top_bar_top_container {
+	height: 30px;
+background-color: whitesmoke;
+}
+.top_bar_bottom {
+	height: 30px;
+background-color: whitesmoke;
+border-bottom: 1px solid silver;
+}
+.foot-ul {
+	width:100%;
+	display:table;
+	text-align:center;
+	padding: 1.5%;
+}
+.footer-column {
+	width: 24.8238%;
+	float:none!important;
+	display: inline-block!important;
+	min-width: 17em!important;
+}
+.footer-column:last-child {
+	border-right:0;
+}
+.foot-ul {
+	margin:0;
+}
+#container {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+#content {
+	flex:1;
+}
+.top-bar-section {
+	display:inline-table;
+	height:100%;
+}
+#menu-navbar {
+height:100%;
+}
+#footer {
+	margin:auto;
+}
+.top-bar-section ul li {
+	display:table;
+	height:100%;
+	background:transparent!important;
+}
+.no-show {
+	display:none;
+}
+.top-bar-section ul li a {
+	display: table-cell;
+vertical-align: middle;
+}
+.sticky {
+	position:fixed;
+	width:100%;
+}
+.title-area {
+	height:100%;
+	display:inline-table;
+	float:left;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+	line-height: normal!important;
+	padding: 1em!important;
+}
+.footer-column>.widget>.widgettitle {
+	color:white!important;
+	font-weight: 600;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin:0!important;
+}
+.footer-column>.widget>.textwidget {
+	color:rgb(228, 228, 228)!important;
+}
+.social-bottom {
+	margin-right: .8em;
+	width: 35px;
+	height: 35px;
+}
+.social-links {
+	margin-right:10px;
+}
+#facebook:hover {
+	fill:rgb(59, 89, 152)
+}
+#google-plus:hover {
+	fill:rgb(211, 72, 54)
+}
+#twitter:hover {
+	fill:rgb(64,153,255)
+}
+.social-top {
+margin-right: .8em;
+height: 100%;
+display: inline-block;
+font-size: 1.3rem;
+}
+.byline {
+	margin-bottom: .5em;
+margin-left: 1.2em;
+border-left: 4px solid rgb(26, 123, 253);
+padding-left: .5em;
+background-color: rgb(248, 248, 248);
+box-shadow: 0px 0px 1px 1px rgb(205, 205, 205);
+padding-top: .2em;
+padding-bottom: .2em;
+}
+.social-shortcode-1 {
+	display:inline-block;
+	margin-right:5px;
+	height:25px;
+	width:25px;
+}
+#facebook-shortcode-1 {
+	fill: #3b5998;
+}
+.worker-description {
+	margin-bottom:.5em!important;
+}
+.social-shortcode-wrapper-1 {
+	border-top: 1px solid silver;
+	padding-top: .5em;
+	text-align:left;
+	background-color: whitesmoke;
+}
+.worker-img {
+	padding: .5em .5em .5em .5em;
+	margin-bottom:0;
+}
+.worker-name {
+	padding: 0 .5em 0 .5em;
+}
+.worker-description {
+	padding: 0 .5em 0 .5em;
+}
+#twitter-shortcode-1 {
+	fill: #4099ff;
+}
+#footer {
+	width:100%;
+}
+.entry-content {
+	margin-top: .5em;
+	background-color: white;
+	box-shadow: 1px 1px 1px 1px rgb(228, 228, 228);
+	padding: 1em;
+	border: 1px solid silver;
+}
+.social-widget {
+	width: 45px;
+	height: 45px;
+}
+.social-icons-widget {
+	margin-right: 10px;
+	display: inline-block;
+}
+.top-social-wrapper {
+	float:right;
+	height:100%;
+}
+.top-social-wrapper>.social-links {
+	height:100%;
+}
+.name {
+	display:table-cell;
+}
+.breadcrumbs-wrapper {
+	display: table;
+	height: 100%;
+	margin-left: 2em;
+}
+.breadcrumbs {
+	display: table-cell;
+	padding: 0;
+	border: 0;
+	color: rgb(76, 76, 76);
+}
+.social-top>a {
+	color:rgb(150, 150, 150);
+}
+.social-bottom>a {
+	color:rgb(150, 150, 150);
+}
+.name {
+	display:table-cell;
+	vertical-align:middle;
+}
+.contact-bottom>i {
+	margin-right:.5em;
+}
+.social-bottom:last-child {
+	margin-right:0;
+}
+.widget {
+	margin:0;
+}
+
+#facebook>a:hover {
+	color:rgb(32, 94, 255);
+}
+#google-plus>a:hover {
+	color:rgba(221, 7, 7, 0.71);
+}
+#twitter>a:hover {
+	color:rgb(0, 192, 255);
+}
+#twitter-rounded:hover {
+fill: #4099ff;
+}
+#facebook-rounded:hover {
+fill: #3b5998;
+}
+#google-plus-rounded:hover {
+fill: #d34836;
+}
+  .off-canvas-wrap {
+    display: table;
+width: 100%;
+height: 100%;
+  }
+  .inner-wrap {
+    display: table;
+width: 100%;
+height: 100%;
+  }
+  .inner-wrap #container {
+    display: table;
+width: 100%;
+height: 100%;
+  }
+  .header {
+    display: table-row;
+height: 1px;
+  }
+  #content {
+    display: table-row;
+height: auto;
+  }
+  #footer {
+    display: table-row;
+height: 1px;
+  }
+  #nav-bar-wrapper {
+    width:100%;
+    display:block;
+  }
+    .title-area a {
+  	height:100%;
+  	width:initial;
+  }
+  #logo {
+  	height:auto;
+  	display:table-cell;
+  	max-height:100%;
+  }
+  .site-title .name {
+  	font-size: 1.2rem;
+  }
+  .site-description {
+  	line-height: normal;
+color: whitesmoke;
+margin-bottom: 0;
+  }
+  .top-social-wrapper {
+ height: inherit;
+position: relative;
+float:none!important;
+}
+.top-social-in-wrapper {
+ display: block;
+height: 100%;
+width: auto;
+max-height: 40px;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+right: 15px;
+padding-top: .2em;
+padding-bottom: .2em;
+}
+.top-top-social-link {
+display: inline-block;
+height: 100%;
+margin-right: 1em;
+border-radius: 50%;
+padding: .22em;
+}
+#twitter-link:hover svg {
+	fill: #00aced;
+		-webkit-transition: all .35s ease-in-out;
+-moz-transition: all .35s ease-in-out;
+-o-transition: all .35s ease-in-out;
+transition: all .35s ease-in-out;
+}
+#facebook-link:hover svg {
+	fill: #3b5998;
+	-webkit-transition: all .35s ease-in-out;
+-moz-transition: all .35s ease-in-out;
+-o-transition: all .35s ease-in-out;
+transition: all .35s ease-in-out;
+}
+#linkedin-link:hover svg {
+	fill: #007bb6;
+		-webkit-transition: all .35s ease-in-out;
+-moz-transition: all .35s ease-in-out;
+-o-transition: all .35s ease-in-out;
+transition: all .35s ease-in-out;
+}
+.top-top-social-svg {
+display: block;
+height: 100%;
+fill: whitesmoke;
+}
+#tagline-group {
+ display: table-cell;
+vertical-align: middle;
+text-align:center
+}
+.top-bar-section ul {
+ display: table-cell!important;
+vertical-align: bottom;
+}
+.site-description {
+ color:black!important;
+}
+.top-bar {
+	background:transparent!important;
+	background-color:transparent!important;
+}
+#footer .widget {
+ width: 100%;
+ margin-top:1.5em;
+}
+#footer-1 .widget {
+margin-top: 0!important;
+}
+.title-area a {
+ display: table-cell;
+vertical-align: middle;
+}
+.name {
+ display:block!important;
+}
+.nav-bar-out-wrapper {
+ padding-left: 1em;
+padding-right: 1em;
+background-color: whitesmoke;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin:0;
+}
+#main {
+	padding:0!important;
+}
+//Visual Composer Specific
+//Mobile Breakpoint
+@media only screen and (max-width : 768px) {
+  .sidebar{ 
+    display:none!important;
+  }
+  
+}

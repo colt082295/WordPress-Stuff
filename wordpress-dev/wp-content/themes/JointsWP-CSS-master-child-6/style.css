@@ -1,0 +1,140 @@
+/*
+ Theme Name:   STC Network Child 6
+ Theme URI:    http://stc360.com
+ Description:  Same as 3 right now. Bubble nav positioned to top.
+ Author:       STC Network (Colton Travers)
+ Author URI:   http://stc360.com
+ Template:     stctheme
+ Version:      1.0.0
+ Tags:         black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready, responsive-layout, infinite-scroll, post-slider, design, food, journal, magazine, news, photography, portfolio, clean, contemporary, dark, elegant, modern, professional, sophisticated
+ Text Domain:  stc-network-child-6
+*/
+
+#inner-header>.large-12>.contain-to-grid, .top-bar, .top-bar-section li:not(.has-form) a:not(.button) {
+	height:100%!important;
+	background: transparent;!important;
+	line-height: 50px!important;
+}
+.top-bar-section ul li {
+	display:table!important;
+	height:100%!important;
+	border-right: 1px solid silver;
+}
+.top-bar-section ul li:last-child {
+	border-right:0px;
+	border-bottom-right-radius:10px;
+}
+.top-bar-section ul li:first-child {
+	border-bottom-left-radius: 10px;
+}
+.top-bar-section ul li a {
+	height:100%!important;
+	display:table-cell!important;
+	vertical-align: middle;
+	line-height:inherit!important;
+}
+#inner-header {
+	height: 70px!important;
+	overflow:hidden;
+	background-color: transparent;
+}
+.nav-column {
+	height:100%!important;
+}
+.top-bar.top-bar-section {
+	background-color: transparent!important;
+	border: 1px solid silver;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.top-bar {
+	height:100%!important;
+}
+.menu-item {
+	min-height: 0!important;
+	height: 50px!important;
+	margin-top: 20px;
+}
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+	background-color: transparent!important;
+line-height: 50px!important;
+vertical-align: bottom!important;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+	line-height: 50px!important;
+}
+.top-bar-section {
+	height:70px!important;
+}
+.title-area {
+	height: 70px!important;
+}
+.name {
+	height:100%!important;
+}
+.nav-grid {
+	height:100%!important;
+}
+.top_bar_top {
+	display:none!important;
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	background-color: rgba(242, 242, 242, 1)!important;
+	color: black!important;
+	box-shadow: inset 0px -3px 0px 0px rgb(0, 125, 255);
+}
+#header {
+	margin-bottom: 1em;
+}
+
+
+
+
+
+
+
+
+/******************************
+-------Mobile Breakpoint-------
+******************************/
+@media only screen and (max-width: 59.374em) {
+	.top-bar {
+		height:70px!important;
+	}
+	.top-bar.expanded {
+		height:auto!important;
+	}
+	#inner-header {
+		height:auto!important;
+	}
+	.top-bar-section li:not(.has-form) a:not(.button) {
+		color:white!important;
+		background-color:grey!important;
+	}
+	.top-bar-section li:not(.has-form) a:not(.button):hover {
+background-color: whitesmoke!important;
+color: rgb(75, 75, 75)!important;
+box-shadow: inset 4px 0px 0px 0px rgb(0, 129, 255);
+}
+.top-bar.expanded {
+	background-color:transparent!important;
+}
+.top-bar-section {
+	display:none!important;
+}
+.top-bar.top-bar-section {
+	display:block!important;
+}
+.top-bar.expanded .title-area {
+	background-color: rgb(52, 52, 52)!important;
+}
+.top-bar .toggle-topbar.menu-icon a {
+	text-shadow:none!important;
+	color:rgb(67, 67, 67)!important;
+}
+.top-bar.expanded .toggle-topbar a {
+	color: rgb(255, 255, 255)!important;
+	text-shadow: 1px 1px 1px black;
+}
+
+}

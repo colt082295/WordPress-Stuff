@@ -1,0 +1,187 @@
+/*
+ Theme Name:   STC Network Child 7
+ Theme URI:    http://stc360.com
+ Description:  1st/plain child theme
+ Author:       STC Network (Colton Travers)
+ Author URI:   http://stc360.com
+ Template:     stctheme
+ Version:      1.0.0
+ Tags:         black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready, responsive-layout, infinite-scroll, post-slider, design, food, journal, magazine, news, photography, portfolio, clean, contemporary, dark, elegant, modern, professional, sophisticated
+ Text Domain:  stc-network-child-7
+*/
+
+.top-bar-section ul li {
+	display:table!important;
+	height:100%!important;
+}
+.top-bar-section ul li a {
+	height:100%!important;
+	display:table-cell!important;
+	vertical-align: middle;
+	line-height:inherit!important;
+}
+.nav-column {
+	height:100%!important;
+}
+.top-bar.top-bar-section {
+	display: block!important;
+width: 100%!important;
+height: 60%!important;
+background-color: rgb(55, 55, 55)!important
+}
+.top-bar {
+	height:100%!important;
+	max-width: 100%!important;
+}
+.menu-item {
+	min-height: 0!important;
+height: 50px!important;
+margin-top: 20px;
+}
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+	background-color: transparent!important;
+line-height: 50px!important;
+vertical-align: bottom!important;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+	line-height: 50px!important;
+	color: white!important;
+}
+.top-bar-section {
+	height:70px!important;
+}
+.top-bar .title-area {
+		height: 40%!important;
+	display: block!important;
+width: 100%!important;
+background-color: rgb(217, 217, 217);
+}
+.name {
+	height:100%!important;
+}
+.nav-grid {
+	height:100%!important;
+}
+.top_bar_top {
+	display:none!important;
+}
+#searchform {
+	height: 100%!important;
+	display: table!important;
+	line-height: inherit;
+	float:right;
+}
+.search-field {
+	border: 0;
+padding: 0;
+display: inline-table!important;
+vertical-align: middle;
+}
+#search-button:hover, #search-button:focus, #search-button:hover, #search-button:focus {
+color: black!important;
+}
+.search-box-wrapper {
+	border: 1px solid silver;
+	overflow: hidden;
+	height: 38px;
+	margin-top: 7px;
+	border-radius: 10px;
+	line-height: 37px;
+	margin: 0;
+	display: table-cell;
+}
+.site-title {
+	float:left;
+}
+input.search-box {
+	float: left;
+	top:0;
+	border: 0px!important;
+	box-shadow: none!important;
+	border-radius: 10px;
+	margin:0;
+	width: 80%;
+	height: 100%;
+	padding: 0;
+	padding-left: .5em;
+	display: table-cell;
+	vertical-align: middle;
+	line-height: inherit;
+}
+#search-button:before {
+	line-height: inherit;
+}
+#search-button {
+	float: right;
+	display: inline-block;
+	line-height: inherit;
+	padding: 0;
+	width: 12%;
+	border-bottom-right-radius: 9.9px;
+	border-top-right-radius: 9.9px;
+	padding-left: 5%;
+	padding-right: 11%;
+	background-color: rgb(42, 145, 255)!important;
+}
+.footer-column {
+	padding: 1em;
+padding-top: 0;
+padding-bottom: 0;
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	color: whitesmoke!important;
+	box-shadow: inset 0px 3px 0px 0px rgb(49, 130, 251);
+	background-color: rgb(37, 37, 37)!important;
+}
+.alert.help {
+	color:white;
+}
+
+
+
+
+
+
+
+
+/******************************
+-------Mobile Breakpoint-------
+******************************/
+@media only screen and (max-width: 59.374em) {
+	.top-bar {
+		height:70px!important;
+	}
+	.top-bar.expanded {
+		height:auto!important;
+	}
+	.top-bar-section li:not(.has-form) a:not(.button) {
+		color:white!important;
+		background-color:grey!important;
+	}
+	.top-bar-section li:not(.has-form) a:not(.button):hover {
+background-color: whitesmoke!important;
+color: rgb(75, 75, 75)!important;
+box-shadow: inset 4px 0px 0px 0px rgb(0, 129, 255);
+}
+.top-bar.expanded {
+	background-color:transparent!important;
+}
+.top-bar-section {
+	display:none!important;
+}
+.top-bar.top-bar-section {
+	display:block!important;
+}
+.top-bar.expanded .title-area {
+	background-color: rgb(52, 52, 52)!important;
+}
+.top-bar .toggle-topbar.menu-icon a {
+	text-shadow:none!important;
+	color:rgb(67, 67, 67)!important;
+}
+.top-bar.expanded .toggle-topbar a {
+	color: rgb(255, 255, 255)!important;
+	text-shadow: 1px 1px 1px black;
+}
+
+}

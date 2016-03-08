@@ -1,0 +1,14 @@
+{
+  "name": "stctheme",
+  "version": "0.0.0",
+  "description": "Find out more here: www.jointswp.com   Demo: www.jointswp.com/demo",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "gulp-uncss": "~1.0.0"
+  }
+}

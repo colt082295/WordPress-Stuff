@@ -1,0 +1,191 @@
+/******************************************************************
+
+Stylesheet: Main Stylesheet
+
+Here's where the magic happens. Here, you'll see we are calling in
+the separate media queries. The base mobile goes outside any query
+and is called at the beginning, after that we call the rest
+of the styles inside media queries.
+******************************************************************/
+
+
+.top-social-wrapper {
+ height: inherit;
+position: relative;
+float:none!important;
+}
+.top-social-in-wrapper {
+ display: block;
+height: 100%;
+width: auto;
+max-height: 40px;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+right: 15px;
+padding-top: .2em;
+padding-bottom: .2em;
+}
+.top-top-social-link {
+display: inline-block;
+height: 100%;
+margin-right: 1em;
+border-radius: 50%;
+padding: .22em;
+}
+.top-top-social-svg {
+display: block;
+height: 100%;
+fill: whitesmoke;
+}
+.top_bar_top_container {
+background-color: rgba(10, 51, 126, 0.65) !important;
+height:30px;
+}
+.title-area {
+ display:inline-table!important;
+}
+#tagline-group {
+ display: table-cell;
+vertical-align: middle;
+text-align:center
+}
+.top-bar-section ul {
+ display: table-cell!important;
+vertical-align: middle;
+}
+.site-description {
+ color:black!important;
+}
+#footer .widget {
+ width: 100%;
+}
+.title-area a {
+ display: table-cell;
+vertical-align: middle;
+}
+.name {
+ display:block!important;
+}
+.nav-bar-out-wrapper {
+ border-bottom: 2px solid rgb(157, 157, 157);
+ padding-left: 1em;
+padding-right: 1em;
+background-color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top-bar-section li.active:not(.has-form) a:not(.button):hover {
+	color:black!important;
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	color:black!important;
+	-webkit-transition: all .5s ease-in-out;
+-moz-transition: all .5s ease-in-out;
+-o-transition: all .5s ease-in-out;
+transition: all .5s ease-in-out;
+}
+.top-bar-section ul li>a {
+ font-family: 'Lato', sans-serif;
+font-size: 1rem;
+font-weight: 700;
+color:rgb(110, 110, 110)!important;
+}
+.top-bar-section {
+ margin-left:5%;
+ display:inline-table!important;
+}
+.stats-block, .wpb_row .wpb_column .wpb_wrapper .stats-block {
+ margin-bottom:0px!important;
+}
+.worker-container {
+ text-align:center;
+}
+.worker-wrapper {
+ max-width: 20%;
+ float:none!important;
+ display:inline-block!important;
+ min-width: 18em;
+margin-bottom: 1em;
+}
+.worker-wrapper>.wpb_wrapper {
+ border: 1px solid silver;
+}
+.entry-content {
+ border:0;
+ box-shadow:none!important;
+}
+header {
+ margin-bottom:0!important;
+}
+#menu-navbar {
+ display: table-cell;
+vertical-align: middle;
+}
+.top-bar-section ul li {
+ float:none!important;
+ display: table-cell;
+}
+.entry-content {
+ margin-top:0;
+}
+.title-area {
+ margin-right: 3em;
+}
+.top-bar .name h1 a {
+ font-size: 1.3rem;
+font-weight: 600;
+color:black!important;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+ background:transparent!important;
+}
+/*********************************************************
+CODE BELOW HERE SHOULD BE DELETED. JUST HERE TO SHOW WHAT IT'D LOOK LIKE. DELETE WHEN DONE DEVELOPING. 
+*********************************************************/
+#main {
+
+}
+.entry-content {
+ padding:0!important;
+}
+#nav-bar-wrapper {
+ height:120px!important;
+}
+.top-bar {
+ height:100%!important;
+ background-color:whitesmoke!important;
+}
+#name {
+ display:block!important;
+}

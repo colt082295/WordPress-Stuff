@@ -1,0 +1,170 @@
+/*
+ Theme Name:   STC Network Child 5
+ Theme URI:    http://stc360.com
+ Description:  Individualized bubble nav, centered.
+ Author:       STC Network (Colton Travers)
+ Author URI:   http://stc360.com
+ Template:     stctheme
+ Version:      1.0.0
+ Tags:         black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready, responsive-layout, infinite-scroll, post-slider, design, food, journal, magazine, news, photography, portfolio, clean, contemporary, dark, elegant, modern, professional, sophisticated
+ Text Domain:  stc-network-child-5
+*/
+
+#inner-header>.large-12>.contain-to-grid, .top-bar, .top-bar-section li:not(.has-form) a:not(.button) {
+	height:100%!important;
+	background: transparent;!important;
+	line-height: 50px!important;
+}
+.top-bar-section ul li {
+	display:table!important;
+	border: 1px solid rgb(171, 171, 171);
+	border-radius: 10px;
+	margin-right:10px;
+	background-color:rgb(234, 234, 234);
+}
+.top-bar-section ul li a {
+	height:100%!important;
+	display:table-cell!important;
+	vertical-align: middle;
+	line-height:inherit!important;
+	color:grey!important;
+}
+#inner-header {
+	height: 70px!important;
+	overflow:hidden;
+	background-color: whitesmoke;
+box-shadow: inset 0px -1px 0px 0px silver;
+}
+.nav-column {
+	height:100%!important;
+}
+.top-bar.top-bar-section {
+	background-color: transparent!important;
+}
+.top-bar {
+	height:70px!important;
+}
+.menu-item {
+	min-height: 0!important;
+height: 50px!important;
+margin-top: 20px;
+}
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+	background-color: transparent!important;
+line-height: 50px!important;
+vertical-align: bottom!important;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+	line-height: 50px!important;
+}
+.top-bar-section {
+	height:100%;
+}
+.title-area {
+	height: 70px!important;
+}
+.name {
+	height:100%!important;
+}
+.nav-grid {
+	height:100%!important;
+}
+.top_bar_top {
+	display:none!important;
+}
+.top-bar-section>div {
+	overflow:hidden;
+}
+.current_page_item {
+background-color: rgb(213, 213, 213)!important;
+border:2px solid rgb(123, 123, 123)!important;
+}
+.page_item:hover {
+background-color: rgb(31, 31, 31)!important;
+}
+.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
+	font-weight:600;
+}
+.footer-column {
+width: 24.8238%;
+text-align:center;
+float:none!important;
+border-right:1px solid rgb(89, 89, 89);
+display: table-cell;
+vertical-align:top;
+}
+.footer-column:last-child {
+	border-right:0;
+}
+.foot-ul {
+	margin:0;
+}
+.top-bar-section {
+	display:table;
+}
+.top-bar-section>div {
+	display:table-cell;
+	vertical-align:middle;
+}
+.name {
+	display:table;
+}
+.name>* {
+	display:table-cell;
+	vertical-align:middle;
+}
+#footer>footer {
+	background-color: rgb(51, 51, 51);
+color: white;
+padding: 1em;
+}
+.foot-ul {
+	width:100%;
+	display:table;
+}
+
+
+
+
+
+
+
+/******************************
+-------Mobile Breakpoint-------
+******************************/
+@media only screen and (max-width: 59.374em) {
+	.top-bar {
+		height:70px!important;
+	}
+	.top-bar.expanded {
+		height:auto!important;
+	}
+	#inner-header {
+		height:auto!important;
+	}
+	.top-bar-section li:not(.has-form) a:not(.button) {
+		color:white!important;
+		background-color:grey!important;
+	}
+.top-bar.expanded {
+	background-color:transparent!important;
+}
+.top-bar-section {
+	display:none!important;
+}
+.top-bar.top-bar-section {
+	display:block!important;
+}
+.top-bar.expanded .title-area {
+	background-color: rgb(52, 52, 52)!important;
+}
+.top-bar .toggle-topbar.menu-icon a {
+	text-shadow:none!important;
+	color:rgb(67, 67, 67)!important;
+}
+.top-bar.expanded .toggle-topbar a {
+	color: rgb(255, 255, 255)!important;
+	text-shadow: 1px 1px 1px black;
+}
+
+}

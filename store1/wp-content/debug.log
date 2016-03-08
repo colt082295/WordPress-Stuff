@@ -1,0 +1,33 @@
+[16-Mar-2015 14:25:10 UTC] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 2
+[16-Mar-2015 14:25:10 UTC] PHP Fatal error:  Call to a member function get_cart_url() on a non-object in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 2
+[16-Mar-2015 14:25:41 UTC] PHP Notice:  Undefined variable: item_key in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 5
+[16-Mar-2015 14:25:41 UTC] PHP Notice:  Array to string conversion in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 95
+[16-Mar-2015 14:25:41 UTC] PHP Fatal error:  Using $this when not in object context in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/stctheme/functions.php on line 277
+[16-Mar-2015 14:29:16 UTC] PHP Notice:  Undefined variable: item_key in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 5
+[16-Mar-2015 14:29:16 UTC] PHP Notice:  Array to string conversion in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 95
+[16-Mar-2015 14:29:16 UTC] PHP Notice:  Undefined variable: thiss in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/stctheme/functions.php on line 277
+[16-Mar-2015 14:29:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/stctheme/functions.php on line 277
+[16-Mar-2015 14:29:34 UTC] PHP Notice:  Undefined variable: item_key in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 5
+[16-Mar-2015 14:29:34 UTC] PHP Notice:  Array to string conversion in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 95
+[16-Mar-2015 14:29:34 UTC] PHP Fatal error:  Using $this when not in object context in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/stctheme/functions.php on line 277
+[16-Mar-2015 14:36:56 UTC] PHP Notice:  Undefined variable: item_key in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 5
+[16-Mar-2015 14:36:56 UTC] PHP Notice:  Array to string conversion in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 95
+[16-Mar-2015 14:36:56 UTC] PHP Notice:  Template file is missing for `bartag` shortcode. Make sure you have `wp-content/themes/your_theme/vc_templates/bartag.php` file in your theme folder. in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/plugins/js_composer/include/classes/shortcodes/shortcodes.php on line 450
+[16-Mar-2015 14:38:58 UTC] PHP Notice:  Undefined variable: item_key in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 5
+[16-Mar-2015 14:38:59 UTC] PHP Notice:  Array to string conversion in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 95
+[16-Mar-2015 14:47:07 UTC] PHP Notice:  Undefined variable: item_key in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 5
+[16-Mar-2015 14:47:07 UTC] PHP Notice:  Array to string conversion in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 95
+[16-Mar-2015 14:48:15 UTC] PHP Notice:  Undefined variable: item_key in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 5
+[16-Mar-2015 14:48:15 UTC] PHP Notice:  Array to string conversion in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 95
+[16-Mar-2015 14:48:40 UTC] PHP Notice:  Undefined variable: item_key in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 5
+[16-Mar-2015 14:48:40 UTC] PHP Notice:  Array to string conversion in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 95
+[16-Mar-2015 14:49:37 UTC] PHP Notice:  Undefined variable: item_key in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 5
+[16-Mar-2015 14:49:37 UTC] PHP Notice:  Array to string conversion in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 95
+[16-Mar-2015 14:50:04 UTC] PHP Notice:  Undefined variable: item_key in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 5
+[16-Mar-2015 14:50:04 UTC] PHP Notice:  Array to string conversion in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 95
+[16-Mar-2015 14:50:34 UTC] PHP Notice:  Undefined variable: item in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 94
+[16-Mar-2015 14:50:53 UTC] PHP Notice:  Undefined variable: qty in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 84
+[16-Mar-2015 14:50:53 UTC] PHP Notice:  Undefined variable: item in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 91
+[16-Mar-2015 14:50:53 UTC] PHP Notice:  Undefined variable: qty in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 94
+[16-Mar-2015 14:50:53 UTC] PHP Notice:  Undefined variable: total in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-content/themes/flat/partials/nav-top-offcanvas.php on line 102
+[16-Mar-2015 15:04:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_login_stylesheet' not found or invalid function name in /var/www/vhosts/ns510932.ip-167-114-103.net/httpdocs/store1/wp-includes/plugin.php on line 496

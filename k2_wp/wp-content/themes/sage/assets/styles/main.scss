@@ -1,0 +1,97 @@
+@import "common/_variables";
+
+// Automatically injected Bower dependencies via wiredep (never manually edit this block)
+// bower:scss
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+@import "common/_global";
+@import "components/_buttons";
+@import "components/_comments";
+@import "components/_forms";
+@import "components/_grid";
+@import "components/_wp-classes";
+@import "layouts/_header";
+@import "layouts/_sidebar";
+@import "layouts/_footer";
+@import "layouts/_pages";
+@import "layouts/_posts";
+@import "layouts/_tinymce";
+
+
+
+
+
+
+
+
+.main {
+    max-width: 100%!important;
+    width: 100%!important;
+}
+.product {
+    & .images {
+        max-width: 40%;
+    }
+    & .img-wrapper {
+        position: relative;
+        & h3 {
+            
+        }
+    }
+    & .button {
+        
+    }
+}
+td.label {
+    display: none;
+}
+.products {
+    white-space: nowrap!important;
+    & li {
+        white-space: nowrap!important;
+        text-align: center;
+        & h1,h2,h3,h4,h5,h6 {
+            white-space: normal;
+        }
+        & .btn {
+            margin-top: .5em;
+        }
+    }
+}
+.navbar-collapse{
+    background-color: #9dbcc1!important;
+    & .search {
+        position: relative;
+        width: 16em;
+        height: 50px;
+        & form {
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            width: 100%;
+        }
+    }
+    & a {
+        color: black!important;
+        text-shadow: .01px .01px .01px rgba(0, 0, 0, 0.39);
+        font-family: 'PT Sans', sans-serif;
+        &:hover {
+            background-color: transparent!important;
+        }
+        &:focus {
+            background-color: white!important;
+        }
+    }
+}
+.footer {
+    background-color: #9dbcc1!important;
+    padding: 2em;
+    text-align: center;
+}
+.price {
+    display: none!important;
+}
+.contact-bottom {
+    display: none!important;
+}

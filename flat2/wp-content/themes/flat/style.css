@@ -1,0 +1,14 @@
+/*
+ Theme Name:   Flat 2
+ Theme URI:    http://stc360.com
+ Description:  Flat 2 - child theme
+ Author:       Colton Travers
+ Author URI:   http://stc360.com
+ Template:     stctheme
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  flat-2
+*/
+@import "./css/style.css";

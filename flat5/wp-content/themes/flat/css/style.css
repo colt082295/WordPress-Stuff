@@ -1,0 +1,269 @@
+/******************************************************************
+
+Stylesheet: Main Stylesheet
+
+Here's where the magic happens. Here, you'll see we are calling in
+the separate media queries. The base mobile goes outside any query
+and is called at the beginning, after that we call the rest
+of the styles inside media queries.
+******************************************************************/
+.top-social-wrapper {
+  height: inherit;
+  position: relative;
+  float: none !important; }
+
+.top-social-in-wrapper {
+  display: block;
+  height: 100%;
+  width: auto;
+  max-height: 40px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 15px;
+  padding-top: .2em;
+  padding-bottom: .2em; }
+
+.top-top-social-link {
+  display: inline-block;
+  height: inherit;
+  margin-right: 1em;
+  border-radius: 50%;
+  padding: .22em; }
+
+.top-top-social-svg {
+  display: block;
+  height: 100%;
+  fill: whitesmoke; }
+
+.top_bar_top_container {
+  background-color: rgba(10, 51, 126, 0.65) !important;
+  height: 30px; }
+
+.title-area {
+  display: inline-table !important; }
+
+#tagline-group {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center; }
+
+.top-bar-section ul {
+  vertical-align: middle; }
+
+.site-description {
+  color: white !important;
+  text-shadow: 0 0 .3px black, 0 0 .3px black, 0 0 .3px black, 0 0 .3px black, 0 0 .3px black;
+  font-weight: 600; }
+
+#footer .widget {
+  width: 100%; }
+
+.title-area a {
+  display: table-cell;
+  vertical-align: middle; }
+
+.name {
+  display: inline-block !important; }
+
+.nav-bar-out-wrapper {
+  background-color: #5f7aab;
+  z-index: 1;
+  position: relative; }
+
+.top-bar-section a {
+  font-weight: 900 !important;
+  color: white !important; }
+
+.top-bar-section ul li.active > a {
+  font-weight: 900 !important; }
+
+.header {
+  min-width: 13em;
+  max-width: 250px !important;
+  height: 100% !important;
+  display: table-cell;
+  box-shadow: 1px -1px 4px 1px #44454a; }
+
+#content {
+  display: table-cell;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+  vertical-align: top; }
+
+.nav-bar-out-wrapper {
+  height: 100% !important; }
+
+.top-bar {
+  display: block !important;
+  height: auto !important; }
+
+.title-area {
+  display: table !important;
+  height: auto !important;
+  padding: 1.2em;
+  width: 100%;
+  padding-left: .4em !important;
+  padding-right: .4em !important; }
+
+#logo {
+  margin: auto; }
+
+#tagline-group {
+  display: block !important; }
+
+.top-bar-section {
+  display: block !important;
+  width: 100% !important; }
+
+.top-bar-section ul {
+  display: block !important;
+  width: 100% !important; }
+
+.social-side-wrapper {
+  height: inherit;
+  width: auto !important;
+  margin: auto !important;
+  display: table !important; }
+
+.top-bar-section ul li:last-child {
+  border-bottom: 1px solid #44454a; }
+
+.social-side-menu {
+  height: 3em;
+  padding-left: .4em !important;
+  padding-right: .4em !important; }
+
+.top-bar-section ul li {
+  display: inline-block !important;
+  width: 100% !important;
+  text-align: center;
+  border-top: 1px solid #44454a; }
+
+.top-bar-section ul li > a {
+  display: block !important; }
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background-color: white !important; }
+
+.top-bar-section {
+  display: block !important;
+  height: auto !important; }
+
+.top-bar-section li.active:not(.has-form) a:not(.button):hover {
+  color: black !important; }
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  color: #343434 !important;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out; }
+
+.top-bar-section ul li > a {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem; }
+
+.top-bar-section {
+  display: inline-table !important; }
+
+.stats-block, .wpb_row .wpb_column .wpb_wrapper .stats-block {
+  margin-bottom: 0px !important; }
+
+.worker-container {
+  text-align: center; }
+
+.worker-wrapper {
+  max-width: 20%;
+  float: none !important;
+  display: inline-block !important;
+  min-width: 18em;
+  margin-bottom: 1em; }
+
+.worker-wrapper > .wpb_wrapper {
+  border: 1px solid silver; }
+
+.entry-content {
+  border: 0;
+  box-shadow: none !important; }
+
+#nav-bar-wrapper {
+  display: table !important; }
+
+header {
+  margin-bottom: 0 !important; }
+
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+  background-color: whitesmoke !important; }
+
+#menu-navbar {
+  display: table-cell;
+  vertical-align: middle; }
+
+.top-bar-section ul li {
+  float: none !important;
+  display: table-cell;
+  border-spacing: 1em; }
+
+.social-side-menu {
+  width: 100%;
+  bottom: 0;
+  display: table-row; }
+
+.entry-content {
+  margin-top: 0; }
+
+.title-area {
+  padding-right: 5%; }
+
+.top-bar .name, .top-bar .name a {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: black !important;
+  text-align: center; }
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background: transparent !important;
+  padding: 1.2em !important; }
+
+.top-bar-section ul li.active > a {
+  color: #343434 !important; }
+
+/*********************************************************
+CODE BELOW HERE SHOULD BE DELETED. JUST HERE TO SHOW WHAT IT'D LOOK LIKE. DELETE WHEN DONE DEVELOPING. 
+*********************************************************/
+.entry-content {
+  padding: 0 !important; }
+
+#nav-bar-wrapper {
+  height: inherit; }
+
+.top-bar {
+  height: inherit; }
+
+.top-bar {
+  display: table-row !important;
+  margin: 0 auto; }
+
+#name {
+  display: block !important; }
+
+.top_bar_top {
+  display: none; }
+
+@media only screen and (max-width: 768px) {
+  #container {
+    display: block !important; }
+  .header {
+    display: block !important;
+    max-width: none !important;
+    min-width: 0 !important; }
+  #content {
+    display: block !important; }
+  .inner-wrap {
+    display: block !important;
+    width: auto !important;
+    height: auto !important; }
+  .nav-bar-out-wrapper {
+    display: none !important; } }

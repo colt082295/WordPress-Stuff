@@ -1,0 +1,42 @@
+/*
+ Theme Name:   STC Network Child 3
+ Theme URI:    http://stc360.com
+ Description:  Bubble nav positioned to top, marginized.
+ Author:       STC Network (Colton Travers)
+ Author URI:   http://stc360.com
+ Template:     stctheme
+ Version:      1.0.0
+ Tags:         black, round navbar, floated/not flexbox, 
+ Text Domain:  stc-network-child-3
+*/
+.current_page_item {
+	background-color: black!important;
+}
+.top-bar-section {
+	border-radius: 10px;
+background-color: rgb(44, 44, 44);
+margin-right: 2em;
+overflow: hidden;
+border-top-right-radius: 0;
+border-top-left-radius: 0;
+}
+.page_item {
+	background:transparent!important;
+	background-color:transparent!important;
+}
+.top-bar-section ul li a {
+	background:transparent!important;
+	background-color:transparent!important;
+}
+.top-bar .name h1 a {
+	font-weight:600;
+	color: black!important;
+}
+.top-bar {
+	background:transparent!important
+}
+.footer-column {
+display: inline-block;
+width: 24.823%;
+float: none!important;
+}

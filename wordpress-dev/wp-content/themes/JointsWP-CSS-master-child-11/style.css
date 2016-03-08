@@ -1,0 +1,42 @@
+/*
+ Theme Name:   STC Network Child 11
+ Theme URI:    http://stc360.com
+ Description:  11th child theme.
+ Author:       STC Network (Colton Travers)
+ Author URI:   http://stc360.com
+ Template:     stctheme
+ Version:      1.0.0
+ Tags:         black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready, responsive-layout, infinite-scroll, post-slider, design, food, journal, magazine, news, photography, portfolio, clean, contemporary, dark, elegant, modern, professional, sophisticated
+ Text Domain:  stc-network-child-11
+*/
+
+
+.top-bar {
+ background:transparent!important;
+ margin:.5em;
+}
+.top-bar .name h1 a {
+ color:black!important;
+}
+.top-bar-section {
+ border-radius: 7px;
+overflow: hidden;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+ background:#E2E2E2!important;
+ box-shadow: inset 0px -3px 0px 0px silver;
+}
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+ background: #DADADA;
+box-shadow: inset 1px 1px 6px 0px rgb(118, 116, 116)
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background: #DADADA;
+box-shadow: inset 1px 1px 6px 0px rgb(118, 116, 116)
+}
+
+
+
+
+
+

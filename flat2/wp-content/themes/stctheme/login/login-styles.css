@@ -1,0 +1,53 @@
+body {
+	background: rgba(2, 26, 43, 0.65)!important;
+}
+#loginform {
+	border-radius: 3px!important;
+	box-shadow: 0px 0px 10px 0px rgba(189, 189, 189, 1)!important;
+	border: 1px solid rgb(167, 167, 167)!important;
+	padding-bottom: 26px!important;
+}
+label[for="user_login"] {
+	font-size: 1.15rem!important;
+}
+label[for="user_pass"] {
+	font-size: 1.15rem!important;
+}
+.forgetmenot {
+	display: block!important;
+	width: 100%!important;
+	margin-bottom: 1em!important;
+}
+#wp-submit {
+	display: block!important;
+	width: 100%!important;
+	font-size: 1.1rem;
+	padding-bottom: .3em!important;
+	height: auto;
+	padding-top: .3em;
+	background: rgb(167, 167, 167);
+	border-color: rgb(143, 143, 143);
+	box-shadow: 1px 1px 1px 1px silver;
+}
+#wp-submit:hover {
+	border-color: rgb(95, 94, 94)!important;
+	box-shadow: 2px 2px 9px 2px silver!important;
+	transition: all .35s ease-in;
+}
+#nav {
+	display: inline-block!important;
+	float: left!important;
+	width: 40%!important;
+}
+#nav>a {
+	color: white!important;
+}
+#backtoblog {
+	float: right!important;
+	display: inline-block!important;
+	width: 40%!important;
+	padding: 0!important;
+}
+#backtoblog>a {
+	color:white!important;
+}

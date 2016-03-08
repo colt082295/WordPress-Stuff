@@ -1,0 +1,184 @@
+// Woocommerce Shortcode
+.container{
+       background-color:#99E6E6;
+    
+}
+.cover{
+element.style {
+}
+www.any.do/media="all"
+@media (max-width: 640px)
+#body #full-width-container #header #homer-gallery #first .cover-text .cover-title {
+    text-align: center;
+    color: #fff;
+    font-size: 38px;
+    font-weight: 100;
+    line-height: 50px;
+    padding-bottom: 7%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+}
+.woocommerce_display  {
+    & ul {
+        list-style: none;
+        margin: 0;
+        text-align: center;
+    }
+    & li {
+        max-width: 16%;
+        min-width: 6em;
+        display: inline-block;
+        margin-right: 5%;
+        margin-bottom: 1em;
+        padding: .5em;
+        transition: all .3s ease-in-out;
+        &:last-child {
+            margin-right: 0;
+        }
+        &:hover {
+            box-shadow: 0px 2px 10px silver;
+            transform: scale(1.1);
+            transition: all .3s ease-in-out;
+        }
+    }
+    & img {
+        width: 100%;
+    }
+    & .woocommerce_title {
+        text-align: center;
+    }
+    & .woocommerce_description {
+        text-align: center;
+    }
+    & a {
+        color: grey!important;
+    }
+}
+.product {
+    text-align: center;
+    & img {
+        margin-bottom: 0!important;
+    }
+    & h3 {
+        background-color: whitesmoke;
+        border: 1px solid silver;
+    }
+}
+.product-related-title {
+    display: inline-block;
+    &:after {
+        height: 6px;
+        display: block;
+        width: 75%;
+        background: #267AE8;
+        border-right: 1px #fff;
+        content: '';
+        margin-left: 15px;
+    }
+}
+.orderby {
+    border-radius: 5px;
+    &:focus {
+        box-shadow: 0px 1px 1px grey;
+    }
+}
+
+
+// Navigation
+.top-bar {
+    background-color: rgba(192, 192, 192, 0.35)!important;
+    border-bottom: 1px solid grey!important;
+    box-shadow: 0px 1px 1px silver;
+    max-width: none!important;
+    & li {
+        background-color: transparent!important;
+    }
+    & a {
+        background-color: transparent!important;
+        color: grey!important;
+        transition: all .5s ease-in-out;
+        &:hover {
+            background-color: grey!important;
+            color: white!important;
+        }
+    }
+}
+
+
+
+li.product {
+    padding: .5em!important;
+    transition: all .5s ease-in-out;
+    &:hover {
+        box-shadow: 0px 2px 10px silver;
+        transform: scale(1.1);
+        transition: all .3s ease-in-out;
+    }
+}
+
+// Contact
+
+.contact_wrapper {
+    padding: 1em;
+    & .contact_btn {
+        position: relative;
+        & input {
+            border-radius: 50%;
+            height: 5em;
+            width: 5em;
+            border: 1px solid grey;
+            left: 50%;
+            transform: translate(-50%, -100%);
+            position: absolute;
+            top: 90%;
+            background-color: #0A94CC;
+            transition: all .3s ease-in-out;
+            &:focus {
+                background-color: #0680B1;
+                box-shadow: 0px 0px 3px grey;
+                transition: all .3s ease-in-out;
+            }
+        }
+    }
+    & .contact_label {
+        color: rgba(128, 128, 128, 0.76);
+        margin-left: 1%;
+    }
+}
+
+// Page specific
+
+.home .columns {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+}
+
+// Foundation Overrides, move to seperate file to override variables instead
+.contain-to-grid {
+    background-color: transparent!important;
+}
+.columns {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+
+// Visual Composer Specific
+.wpb_column {
+    padding: 0!important;
+}
+.wpb_revslider_element {
+    margin-bottom: 0;
+}
+
+
+// WordPress Specific - Remove when done
+
+#wpadminbar {
+    display: none!important;
+}
+
+html {
+    margin-top: -32px !important;
+}

@@ -1,0 +1,58 @@
+/*
+ Theme Name:   STC Network Child 9
+ Theme URI:    http://stc360.com
+ Description:  9th child theme.
+ Author:       STC Network (Colton Travers)
+ Author URI:   http://stc360.com
+ Template:     stctheme
+ Version:      1.0.0
+ Tags:         black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready, responsive-layout, infinite-scroll, post-slider, design, food, journal, magazine, news, photography, portfolio, clean, contemporary, dark, elegant, modern, professional, sophisticated
+ Text Domain:  stc-network-child-9
+*/
+
+.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
+ color:black!important;
+}
+.top-bar {
+ background:transparent!important;
+ margin:.5em;
+}
+.top-bar-section ul li a {
+
+}
+.top-bar-section {
+ border-radius: 5px;
+border: 1px solid rgb(23, 10, 219);
+padding: .3em;
+background-color: rgb(53, 132, 255)
+}
+.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
+ color:black!important;
+}
+.top-bar-section ul li {
+ border-radius:5px;
+ overflow: hidden;
+ margin-right:1em;
+}
+.top-bar-section ul li:last-child {
+ margin-right:0;
+}
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+  background: rgb(58, 94, 255)!important;
+box-shadow: inset 0px 0px 6px 1px rgb(10, 57, 165);
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+   background: rgb(58, 94, 255)!important;
+box-shadow: inset 0px 0px 6px 1px rgb(10, 57, 165);
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+ background-color:transparent!Important;
+}
+.top-bar-section ul li {
+ background:transparent!important;
+}
+
+
+
+
+

@@ -1,0 +1,90 @@
+/*
+ Theme Name:   STC Network Child - 12
+ Theme URI:    http://stc360.com
+ Description:  12th child theme.
+ Author:       STC Network (Colton Travers)
+ Author URI:   http://stc360.com
+ Template:     stctheme
+ Version:      1.0.0
+ Tags:         black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready, responsive-layout, infinite-scroll, post-slider, design, food, journal, magazine, news, photography, portfolio, clean, contemporary, dark, elegant, modern, professional, sophisticated
+ Text Domain:  stc-network-child-12
+*/
+
+
+
+
+
+.top-bar {
+ background:#EDEDED!important;
+ height:90px;
+ border-bottom:2px solid silver;
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+ box-shadow: inset 0px 3px 0px 0px rgb(30, 115, 190);
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+ background: rgb(237, 237, 237)!important;
+ color: rgb(98, 98, 98);
+font-weight: 600;
+}
+.entry-content {
+ margin-top:0;
+}
+.worker-container {
+ text-align:center;
+}
+.worker-wrapper {
+ max-width: 20%;
+ float:none!important;
+ display:inline-block!important;
+ min-width: 18em;
+margin-bottom: 1em;
+}
+.worker-wrapper>.wpb_wrapper {
+ border: 1px solid silver;
+}
+.entry-content {
+ border:0;
+ box-shadow:none!important;
+}
+header {
+ margin-bottom:0!important;
+}
+#menu-navbar {
+ display: table-cell;
+vertical-align: middle;
+}
+.top-bar .name h1 a {
+ font-size: 1.3rem;
+font-weight: 600;
+color:black!important;
+}
+#content {
+ z-index:4!important;
+}
+.wpb_row, .wpb_content_element, ul.wpb_thumbnails-fluid > li, .last_toggle_el_margin, .wpb_button {
+ margin-bottom:0!important;
+}
+.worker-description {
+ padding-bottom:.5em;
+}
+/*********************************************************
+CODE BELOW HERE SHOULD BE DELETED. JUST HERE TO SHOW WHAT IT'D LOOK LIKE. DELETE WHEN DONE DEVELOPING. 
+*********************************************************/
+#main {
+ padding: 0!important;
+width: 100%!important;
+}
+.entry-content {
+ padding:0!important;
+}
+.top-bar .name h1 a {
+ color:white!important;
+ display:table-cell!important;
+}
+#name {
+ display:block!important;
+}
+#footer > footer {
+ padding:.5em;
+}

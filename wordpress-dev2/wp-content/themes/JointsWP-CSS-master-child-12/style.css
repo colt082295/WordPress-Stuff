@@ -1,0 +1,92 @@
+/*
+ Theme Name:   STC Network Child - Flat 1
+ Theme URI:    http://stc360.com
+ Description:  11th child theme.
+ Author:       STC Network (Colton Travers)
+ Author URI:   http://stc360.com
+ Template:     stctheme
+ Version:      1.0.0
+ Tags:         black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready, responsive-layout, infinite-scroll, post-slider, design, food, journal, magazine, news, photography, portfolio, clean, contemporary, dark, elegant, modern, professional, sophisticated
+ Text Domain:  stc-network-child-flat-1
+*/
+
+
+
+
+
+
+.top-bar-section {
+ margin-left:3em;
+}
+.stats-block, .wpb_row .wpb_column .wpb_wrapper .stats-block {
+ margin-bottom:0px!important;
+}
+.worker-container {
+ text-align:center;
+}
+.worker-wrapper {
+ max-width: 20%;
+ float:none!important;
+ display:inline-block!important;
+ min-width: 18em;
+margin-bottom: 1em;
+}
+.worker-wrapper>.wpb_wrapper {
+ border: 1px solid silver;
+}
+.entry-content {
+ border:0;
+ box-shadow:none!important;
+}
+header {
+ margin-bottom:0!important;
+}
+#menu-navbar {
+ display: table-cell;
+vertical-align: middle;
+}
+.top-bar-section ul li {
+ float:none!important;
+ display: table-cell;
+}
+.top-bar-section {
+ float:left!important;
+}
+.entry-content {
+ margin-top:0;
+}
+.title-area {
+ margin-right: 3em;
+}
+.top-bar .name h1 a {
+ font-size: 1.3rem;
+font-weight: 600;
+color:black!important;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+ background:transparent!important;
+ color:black!important;
+}
+.top_bar_top {
+ background-color:rgba(10, 51, 126, 0.65)!important;
+}
+/*********************************************************
+CODE BELOW HERE SHOULD BE DELETED. JUST HERE TO SHOW WHAT IT'D LOOK LIKE. DELETE WHEN DONE DEVELOPING. 
+*********************************************************/
+#main {
+ padding: 0!important;
+width: 100%!important;
+}
+.entry-content {
+ padding:0!important;
+}
+#nav-bar-wrapper {
+ height:120px!important;
+}
+.top-bar {
+ height:100%!important;
+ background-color:whitesmoke!important;
+}
+#name {
+ display:block!important;
+}

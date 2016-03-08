@@ -1,0 +1,151 @@
+/*
+ Theme Name:   STC Network Child - Side Nav(sticky)
+ Theme URI:    http://stc360.com
+ Description:  12th child theme.
+ Author:       STC Network (Colton Travers)
+ Author URI:   http://stc360.com
+ Template:     stctheme
+ Version:      1.0.0
+ Tags:         black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready, responsive-layout, infinite-scroll, post-slider, design, food, journal, magazine, news, photography, portfolio, clean, contemporary, dark, elegant, modern, professional, sophisticated
+ Text Domain:  stc-network-child-side-nav
+*/
+
+
+
+
+
+.worker-container {
+ text-align:center;
+}
+.worker-wrapper {
+ max-width: 20%;
+ float:none!important;
+ display:inline-block!important;
+ min-width: 18em;
+margin-bottom: 1em;
+}
+.worker-wrapper>.wpb_wrapper {
+ border: 1px solid silver;
+}
+.entry-content {
+ border:0;
+ box-shadow:none!important;
+}
+header {
+ margin-bottom:0!important;
+}
+#menu-navbar {
+ display: table-cell;
+vertical-align: middle;
+}
+.top-bar .name h1 a {
+ font-size: 1.3rem;
+font-weight: 600;
+color:black!important;
+}
+.wpb_row, .wpb_content_element, ul.wpb_thumbnails-fluid > li, .last_toggle_el_margin, .wpb_button {
+ margin-bottom:0!important;
+}
+.top-bar-side {
+ padding-left: 1em;
+padding-right: 1em;
+}
+.name-side {
+ list-style:none;
+}
+.name-side h1 a {
+ font-size: 1.5rem;
+}
+.top-bar-section-side {
+ display:block!important;
+}
+.top-bar-section-side #menu-navbar {
+ list-style: none;
+width: 100%;
+display: block!important;
+overflow: hidden;
+margin: 0;
+}
+.social-side {
+ display: table;
+width: 20%;
+margin-top: 3em;
+border-top: 1px solid silver;
+border-bottom: 1px solid silver;
+bottom: 0;
+position: fixed;
+}
+.social-side-sec {
+display: table-cell;
+border-left: 1px solid silver;
+}
+.social-side-sec svg {
+width: 50px;
+margin: auto;
+display: block;
+}
+.top-bar-section-side .menu-item {
+border-bottom: 1px solid silver;
+width: 100%;
+padding-bottom: .5em;
+padding-top: .5em;
+text-align: right;
+padding-right: 2em;
+padding-left: 2em;
+}
+#main-side {
+ overflow:hidden;
+ padding:0;
+}
+.top-bar-section-side .menu-item a {
+font-size: 1.1rem;
+color: rgb(108, 107, 107);
+}
+.worker-description {
+ padding-bottom:.5em;
+}
+.nav-wrapper-side {
+ position:fixed;
+ left:0;
+ width:20%;
+}
+#main-side {
+ width:80%!important;
+ display:inline-block;
+ float:right;
+}
+#inner-content {
+ background-color: rgb(224, 224, 224);
+}
+#linkedin-2:hover {
+background-color: rgb(0, 123, 182);
+fill: white;
+}
+#twitter-2:hover {
+background-color: rgb(64,153,255);
+fill: white;
+}
+#facebook-2:hover {
+background-color: rgb(59, 89, 152);
+fill: white;
+}
+/*********************************************************
+CODE BELOW HERE SHOULD BE DELETED. JUST HERE TO SHOW WHAT IT'D LOOK LIKE. DELETE WHEN DONE DEVELOPING. 
+*********************************************************/
+#main {
+ padding: 0!important;
+width: 100%!important;
+}
+.entry-content {
+ padding:0!important;
+}
+.top-bar .name h1 a {
+ color:white!important;
+ display:table-cell!important;
+}
+#name {
+ display:block!important;
+}
+#footer > footer {
+ padding:.5em;
+}

@@ -1,0 +1,144 @@
+/*
+ Theme Name:   STC Network Child 2
+ Theme URI:    http://stc360.com
+ Description:  Logo/brand above navbar.
+ Author:       STC Network (Colton Travers)
+ Author URI:   http://stc360.com
+ Template:     stctheme
+ Version:      1.0.0
+ Tags:         black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready, responsive-layout, infinite-scroll, post-slider, design, food, journal, magazine, news, photography, portfolio, clean, contemporary, dark, elegant, modern, professional, sophisticated
+ Text Domain:  stc-network-child-2
+
+*/
+.title-area {
+	float:none!important;
+	height:40%;
+}
+.header {
+	height:120px;
+}
+.header>.sticky {
+	height:100%;
+}
+.top-bar-section {
+	float:none!important;
+	height:60%;
+}
+.top-bar-section>div {
+	height:100%;
+}
+.current_page_item {
+	display:table!important;
+	height:100%;
+}
+.page_item {
+	display:table!important;
+	height:100%;
+}
+.current_page_item>a {
+	display:table-cell!important;
+	vertical-align:middle;
+}
+.page_item>a {
+	display:table-cell!important;
+	vertical-align:middle;
+}
+.current_page_item>a {
+background-color: black!important;
+box-shadow: inset 0px -4px 0px 0px rgb(37, 103, 255);
+}
+.page_item>a:hover {
+box-shadow: inset 0px -4px 0px 0px rgb(37, 103, 255);
+background-color: black!important;
+}
+.top-bar .name h1 a {
+	color: rgb(253, 253, 253)!important;
+font-weight: 600;
+text-shadow: 1px 1px 1px rgb(16, 16, 16);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.search-box-wrapper {
+	border: 1px solid silver;
+	overflow: hidden;
+	height: 38px;
+	margin-top: 7px;
+	border-radius: 10px;
+	line-height: 37px;
+	margin: 0;
+	display: table-cell;
+}
+input.search-box {
+	float: left;
+	top:0;
+	border: 0px!important;
+	box-shadow: none!important;
+	border-radius: 10px;
+	margin:0;
+	width: 80%;
+	height: 100%;
+	padding: 0;
+	padding-left: .5em;
+	display: table-cell;
+	vertical-align: middle;
+	line-height: inherit;
+}
+#search-button:before {
+	line-height: inherit;
+}
+#search-button {
+	float: right;
+	display: inline-block;
+	line-height: inherit;
+	padding: 0;
+	width: 12%;
+	border-bottom-right-radius: 9.9px;
+	border-top-right-radius: 9.9px;
+	padding-left: 5%;
+	padding-right: 11%;
+	background-color: rgb(42, 145, 255)!important;
+}
+.nav-column {
+	height:100%!important;
+	line-height:inherit!important;
+}
+.top-bar.top-bar-section {
+	background-color: transparent!important;
+}
+.top-bar {
+	height:100%!important;
+	line-height:inherit!important;
+}
+#searchform {
+	height: 100%!important;
+	display: table!important;
+	line-height: inherit;
+}
+.menu-item {
+	min-height: 0!important;
+	height: 50px!important;
+	margin-top: 20px;
+}
+.search-field {
+	border: 0;
+padding: 0;
+display: inline-table!important;
+vertical-align: middle;
+}
+#search-button:hover, #search-button:focus, #search-button:hover, #search-button:focus {
+color: black!important;
+}
+.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
+	color:black;
+}
